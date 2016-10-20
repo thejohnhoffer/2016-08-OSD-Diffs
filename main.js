@@ -7,7 +7,7 @@ Sourcer = function() {
       width: SIZE,
       height: SIZE,
       tileSize: TILE,
-      server: 'x.hoff.in:2001',
+      server: 'x.hoff.in:2016',
       datapath: '/data/demo',
       maxLevel: Math.ceil(Math.log2(SIZE/TILE)),
       getTileUrl: function( level, x, y ) {
